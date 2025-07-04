@@ -1,0 +1,9 @@
+{
+	"name": "techbrotheradf1",
+	"location": "westus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "17055cab-0c76-4f45-b345-4e66e851038a",
+		"tenantId": "0f6614b0-5644-452e-b9f6-c03cf6cf003a"
+	}
+}

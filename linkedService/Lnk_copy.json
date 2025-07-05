@@ -7,6 +7,7 @@
 		"typeProperties": {
 			"connectionString": "DefaultEndpointsProtocol=https;AccountName=techbrostorage1;EndpointSuffix=core.windows.net;",
 			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDM0OTM5MkM2LTUwOTAtNDdEMy05QzI3LTk5QzA1MTI3MUE0QV9hNWZhM2QxOC05Mzc0LTRjOGEtYmY1Ny1hMTFjZWNhMTY1NjYiDQp9"
-		}
+		},
+		"description": "How to Copy Files From One Folder to Another and Delete in Source Folder by using Azure Data Factory"
 	}
 }

@@ -5,8 +5,26 @@
 		"factoryName": {
 			"value": "techbrotheradf1"
 		},
+		"Lnk_azure_sql_tr_password": {
+			"value": ""
+		},
 		"Lnk_copy_connectionString": {
 			"value": ""
+		},
+		"Lnk_copy_src_tlb_connectionString": {
+			"value": ""
+		},
+		"lnk_achieve_connectionString": {
+			"value": ""
+		},
+		"Lnk_azure_sql_tr_properties_typeProperties_server": {
+			"value": "techsql1.database.windows.net"
+		},
+		"Lnk_azure_sql_tr_properties_typeProperties_database": {
+			"value": "techsql"
+		},
+		"Lnk_azure_sql_tr_properties_typeProperties_userName": {
+			"value": "adminsql"
 		},
 		"containerUri": {
 			"value": ""

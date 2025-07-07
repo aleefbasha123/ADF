@@ -7,9 +7,33 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "techbrotheradf1"
 		},
+		"Lnk_azure_sql_tr_password": {
+			"type": "secureString",
+			"metadata": "Secure string for 'password' of 'Lnk_azure_sql_tr'"
+		},
 		"Lnk_copy_connectionString": {
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'Lnk_copy'"
+		},
+		"Lnk_copy_src_tlb_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'Lnk_copy_src_tlb'"
+		},
+		"lnk_achieve_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'lnk_achieve'"
+		},
+		"Lnk_azure_sql_tr_properties_typeProperties_server": {
+			"type": "string",
+			"defaultValue": "techsql1.database.windows.net"
+		},
+		"Lnk_azure_sql_tr_properties_typeProperties_database": {
+			"type": "string",
+			"defaultValue": "techsql"
+		},
+		"Lnk_azure_sql_tr_properties_typeProperties_userName": {
+			"type": "string",
+			"defaultValue": "adminsql"
 		},
 		"containerUri": {
 			"type": "string",
@@ -38,8 +62,26 @@
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
 					},
+					"Lnk_azure_sql_tr_password": {
+						"value": "[parameters('Lnk_azure_sql_tr_password')]"
+					},
 					"Lnk_copy_connectionString": {
 						"value": "[parameters('Lnk_copy_connectionString')]"
+					},
+					"Lnk_copy_src_tlb_connectionString": {
+						"value": "[parameters('Lnk_copy_src_tlb_connectionString')]"
+					},
+					"lnk_achieve_connectionString": {
+						"value": "[parameters('lnk_achieve_connectionString')]"
+					},
+					"Lnk_azure_sql_tr_properties_typeProperties_server": {
+						"value": "[parameters('Lnk_azure_sql_tr_properties_typeProperties_server')]"
+					},
+					"Lnk_azure_sql_tr_properties_typeProperties_database": {
+						"value": "[parameters('Lnk_azure_sql_tr_properties_typeProperties_database')]"
+					},
+					"Lnk_azure_sql_tr_properties_typeProperties_userName": {
+						"value": "[parameters('Lnk_azure_sql_tr_properties_typeProperties_userName')]"
 					}
 				}
 			},

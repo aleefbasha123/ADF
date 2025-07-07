@@ -1,0 +1,7 @@
+{
+	"name": "AzureSqlDatabase897",
+	"properties": {
+		"privateLinkResourceId": "/subscriptions/e372beba-f83b-428b-a56b-a2426246fc08/resourceGroups/techbrother-RG/providers/Microsoft.Sql/servers/techsql1",
+		"groupId": "sqlServer"
+	}
+}

@@ -1,0 +1,22 @@
+{
+	"name": "Ds_blob_src",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Lnk_copy_src_tlb",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "source"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}

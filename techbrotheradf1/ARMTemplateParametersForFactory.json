@@ -5,6 +5,9 @@
 		"factoryName": {
 			"value": "techbrotheradf1"
 		},
+		"AzureSqlDatabase1_password": {
+			"value": ""
+		},
 		"Lnk_azure_sql_tr_password": {
 			"value": ""
 		},
@@ -17,6 +20,15 @@
 		"lnk_achieve_connectionString": {
 			"value": ""
 		},
+		"AzureSqlDatabase1_properties_typeProperties_server": {
+			"value": "techsql1.database.windows.net"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_database": {
+			"value": "techsql"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_userName": {
+			"value": "adminsql"
+		},
 		"Lnk_azure_sql_tr_properties_typeProperties_server": {
 			"value": "techsql1.database.windows.net"
 		},
@@ -25,6 +37,12 @@
 		},
 		"Lnk_azure_sql_tr_properties_typeProperties_userName": {
 			"value": "adminsql"
+		},
+		"AzureSqlDatabase897_properties_privateLinkResourceId": {
+			"value": "/subscriptions/e372beba-f83b-428b-a56b-a2426246fc08/resourceGroups/techbrother-RG/providers/Microsoft.Sql/servers/techsql1"
+		},
+		"AzureSqlDatabase897_properties_groupId": {
+			"value": "sqlServer"
 		}
 	}
 }
